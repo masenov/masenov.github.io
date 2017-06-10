@@ -1,53 +1,40 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Martin Asenov Academic Website</title>
-  <link rel="icon" href="martin/me2.jpg">
-  <link href="./martin/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="./martin/style.css" rel="stylesheet">
-  <link href="./martin/css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="media/me.jpg">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/css" rel="stylesheet" type="text/css">
 
 
-<!-- Tracking code -->
-<script type="text/javascript" async="" src="./martin/ga.js"></script><script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-3698471-13']);
-  _gaq.push(['_trackPageview']);
+</head>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-<script type="text/javascript">function a() {	 document.addEventListener('keydown', function(e){		/*console.log('keydown');*/		var keys = [];		if(e.ctrlKey || e.shiftKey || e.altKey || e.metaKey) {			if(e.metaKey) {				keys.push('Cmd');			}			if(e.shiftKey) {				keys.push('Shift');			}			if(e.ctrlKey)			{				keys.push('Ctrl');			}			if(e.altKey) {				keys.push('Alt');			}		}		if(e.which)		{			/*console.log(e.which);*/			keys.push(String.fromCharCode(e.which));		}		/*console.log(keys.join('+'));*/		if(keys.length >= 2 && keys[keys.length-1] != '') {			window.postMessage({type: 'dolphin_shortcuts', keys:keys}, '*');		}	 });}a();</script><script type="text/javascript"> window.oncontextmenu = function(event) {    var target = event.target.getAttribute('obj_url');	 window.postMessage({type: 'dolphin_clickTarget', target:target}, '*'); };</script></head>
-
-<body onload="start()" data-gr-c-s-loaded="true">
+<body>
 
 <div id="header" class="bg1">
   <div id="headerblob">
-    <img src="./martin/me2.jpg" class="img-circle imgme">
+    <img src="./media/me.jpg" class="img-circle imgme">
     <div id="headertext">
       <div id="htname">Martin Asenov</div>
       <div id="htdesc">University of Edinburgh Robotics Ph.D. student</div>
       <div id="htem">m.asenov _at_ ed.ac.uk</div>
       <div id="icons">
         <div class="svgico">
-          <a href="mailto:m.asenov@ed.ac.uk"><img src="./martin/email.png" width="56px"></a>
+          <a href="mailto:m.asenov@ed.ac.uk"><img src="./media/email.png" width="56px"></a>
         </div>
         <div class="svgico">
-          <a href="https://www.linkedin.com/in/masenov1"><img src="./martin/linkedin.png" width="56px"></a>
+          <a href="https://www.linkedin.com/in/masenov1"><img src="./media/linkedin.png" width="56px"></a>
         </div>
         <div class="svgico">
-          <a href="https://github.com/masenov"><img src="./martin/octocat.svg" width="56px"></a>
+          <a href="https://github.com/masenov"><img src="./media/octocat.svg" width="56px"></a>
         </div>
         <div class="svgico">
-          <a href="https://twitter.com/masenov1"><img src="./martin/03-twitter.svg"></a>
+          <a href="https://twitter.com/masenov1"><img src="./media/03-twitter.svg"></a>
         </div>
         <div class="svgico">
-          <a href="https://www.facebook.com/merefere"><img src="./martin/facebook.png" width="56px"></a>
+          <a href="https://www.facebook.com/merefere"><img src="./media/facebook.png" width="56px"></a>
         </div>
       </div>
     </div>
@@ -82,33 +69,8 @@
 
 <div class="container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
   <b>Bio</b>. To be completed
-  
 </div>
 
-
-
-  <!--
-  <div class="row">
-    <div class="col-md-4">
-      <div class="pp">
-        <img src="img/cubevid.jpg" class="img-circle imgb">
-        <div class="ppt">Rubik's Cube Tutorials</div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="pp">
-        <img src="img/octocat.svg" class="img-circle imgb">
-        <div class="ppt">Github</div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="pp">
-        <img src="img/feed.png" class="imgb">
-        <div class="ppt">Academic Blog</div>
-      </div>
-    </div>
-  </div>
-  -->
 </div>
 
 <div id="sitefooter">
@@ -116,45 +78,6 @@
 </div>
 
 <!-- place js at end for faster loading -->
-<script src="./martin/jquery-1.11.1.min.js"></script>
-<script src="./martin/bootstrap.min.js"></script>
-<script>
-
-var more_projects_shown = false;
-function start() {
-  $("#showmoreprojects").click(function() {
-    if(!more_projects_shown) {
-      $("#moreprojects").slideDown('fast', function() {
-        $("#showmoreprojects").text('hide');
-      });
-      more_projects_shown = true;
-    } else {
-      $("#moreprojects").slideUp('fast', function() {
-        $("#showmoreprojects").text('show more');
-      });
-      more_projects_shown = false;
-    }
-  });
-
-  var more_pubs_shown = false;
-  $("#showmorepubs").click(function() {
-    if(!more_pubs_shown) {
-      $("#morepubs").slideDown('fast', function() {
-        $("#showmorepubs").text('hide');
-      });
-      more_pubs_shown = true;
-    } else {
-      $("#morepubs").slideUp('fast', function() {
-        $("#showmorepubs").text('show more');
-      });
-      more_pubs_shown = false;
-    }
-  });
-
-}
-
-</script>
-
-
-
-</div><div id="spreed-overlay" style="position: absolute;"><img src="chrome-extension://ipikiaejjblmdopojhpejjmbedhlibno/close_icon.png" style="float: left; margin-bottom: 3px; position: absolute; left: 0px; top: 0px; cursor: pointer;"><a style="cursor: pointer;">&lt; 1 min to Spreed</a></div></body><div></div></html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body></html>
