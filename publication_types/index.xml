@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types on Martin Asenov</title>
-    <link>https://example.com/publication_types/</link>
+    <link>https://masenov.github.io/publication_types/</link>
     <description>Recent content in Publication_types on Martin Asenov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>1</title>
-      <link>https://example.com/publication_types/1/</link>
+      <link>https://masenov.github.io/publication_types/1/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/publication_types/1/</guid>
+      <guid>https://masenov.github.io/publication_types/1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2</title>
-      <link>https://example.com/publication_types/2/</link>
+      <link>https://masenov.github.io/publication_types/2/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/publication_types/2/</guid>
+      <guid>https://masenov.github.io/publication_types/2/</guid>
       <description></description>
     </item>
     
