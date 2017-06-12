@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello on Martin Asenov</title>
+    <link>https://masenov.github.io/tags/hello/</link>
+    <description>Recent content in Hello on Martin Asenov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Martin Asenov</copyright>
+    <lastBuildDate>Mon, 12 Jun 2017 12:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/hello/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://masenov.github.io/post/hello-world/</link>
+      <pubDate>Mon, 12 Jun 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://masenov.github.io/post/hello-world/</guid>
+      <description>&lt;p&gt;So after a few weeks of checking out academic webpages of different researchers, trying to get inspired, I did what I had to do straight from the beginning&amp;hellip; Search for academic website on Github and find an awesome extendable framework - &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;https://github.com/gcushen/hugo-academic&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
