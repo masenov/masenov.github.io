@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Martin Asenov</copyright>
     <lastBuildDate>Sat, 06 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/neuroscience/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://masenov.github.io/tags/neuroscience/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Dynamic Model of Interactions between Orientation Selective Neurons in Primary Visual Cortex</title>

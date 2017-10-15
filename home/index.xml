@@ -8,7 +8,64 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Martin Asenov</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://masenov.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://masenov.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://masenov.github.io/home/about/</guid>
+      <description>Biography Currently, I am a PhD student at the University of Edinburgh, working on active sensing with UAV, in collaboration with Heriot-Watt University and the Defence Science and Technology Laboratory. I am holding a Master by Research in Robotics and Autonumous Systems, a joint program between The University of Edinburgh and Heriot-Watt University. I also hold a BSc in Artificial Intelligence and Computer Science from the University of Edinburgh. During my undergraduate studies I was also able to go to the Uninversity of California, Irvine for a year-long exchange.</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://masenov.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://masenov.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://masenov.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://masenov.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://masenov.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://masenov.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://masenov.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://masenov.github.io/home/teaching/</guid>
+      <description>I worked as tutor at Avid Academy, where I was preparing students for AIME and AMC math competitions.
+I also tutored the Advanced Object Orientated classes at The University of Edinburgh in my final year as undergraduate student.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://masenov.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://masenov.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

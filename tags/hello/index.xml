@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Martin Asenov</copyright>
     <lastBuildDate>Mon, 12 Jun 2017 12:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/hello/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://masenov.github.io/tags/hello/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hello World!</title>
@@ -16,8 +18,7 @@
       <pubDate>Mon, 12 Jun 2017 12:00:00 +0000</pubDate>
       
       <guid>https://masenov.github.io/post/hello-world/</guid>
-      <description>&lt;p&gt;So after a few weeks of checking out academic webpages of different researchers, trying to get inspired, I did what I had to do straight from the beginning&amp;hellip; Search for academic website on Github and find an awesome extendable framework - &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;https://github.com/gcushen/hugo-academic&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>So after a few weeks of checking out academic webpages of different researchers, trying to get inspired, I did what I had to do straight from the beginning&amp;hellip; Search for academic website on Github and find an awesome extendable framework - https://github.com/gcushen/hugo-academic.</description>
     </item>
     
   </channel>

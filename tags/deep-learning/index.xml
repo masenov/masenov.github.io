@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Martin Asenov</copyright>
     <lastBuildDate>Sat, 06 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/deep-learning/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://masenov.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Generating disparity maps using Convolutional Neural Networks</title>
@@ -16,26 +18,7 @@
       <pubDate>Sat, 06 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://masenov.github.io/project/disparity/</guid>
-      <description>&lt;p&gt;Extracting 3D information from a scene is both a
-fundamental problem in Computer Vision and one of the
-field&amp;rsquo;s most valuable applications. A lot of solutions exists
-using specialized hardware like 3d cameras, different
-radar systems, Kinect, etc. However, all of them has trade-
-offs in terms of their accuracy, price and limitations that
-are usually unsatisfactory for commercial applications. In
-this paper we present a method for extracting 3D
-information from cameras that aims to partially mitigate
-the problems that prevent them to be the cheap and
-reliable solution for the stereo vision problem. Our
-solution is based on Convolutional Neural Networks
-which recently gained popularity for the problem of visual
-recognition. We modify their architecture to be better
-suited for depth map extraction and test them on both
-single and multi-view camera images. Furthermore, we
-make use of computer graphics generated data and
-experiment with transferring our results from animated
-pictures to the real ones.&lt;/p&gt;
-</description>
+      <description>Extracting 3D information from a scene is both a fundamental problem in Computer Vision and one of the field&amp;rsquo;s most valuable applications. A lot of solutions exists using specialized hardware like 3d cameras, different radar systems, Kinect, etc. However, all of them has trade- offs in terms of their accuracy, price and limitations that are usually unsatisfactory for commercial applications. In this paper we present a method for extracting 3D information from cameras that aims to partially mitigate the problems that prevent them to be the cheap and reliable solution for the stereo vision problem.</description>
     </item>
     
     <item>

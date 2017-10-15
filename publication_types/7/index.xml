@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Martin Asenov</copyright>
     <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication_types/7/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://masenov.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>UAV Forge: Innovation for Personal Autonomous Systems</title>
@@ -16,8 +18,7 @@
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://masenov.github.io/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;Dean&amp;rsquo;s Choice Award 2015&lt;/p&gt;
-</description>
+      <description>Dean&amp;rsquo;s Choice Award 2015</description>
     </item>
     
   </channel>

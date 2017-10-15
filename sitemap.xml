@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/talk/softuni/</loc>
+      <loc>/talk/softuni/</loc>
       <lastmod>2017-07-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/post/hello-world/</loc>
+      <loc>/post/hello-world/</loc>
       <lastmod>2017-06-12T12:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/talk/example-talk/</loc>
+      <loc>/talk/example-talk/</loc>
       <lastmod>2017-03-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/publication/person-re-identification/</loc>
+      <loc>/publication/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/project/uav/</loc>
+      <loc>/project/uav/</loc>
       <lastmod>2015-06-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/project/neuro/</loc>
+      <loc>/project/neuro/</loc>
       <lastmod>2015-06-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/project/gp/</loc>
+      <loc>/project/gp/</loc>
       <lastmod>2015-06-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/project/disparity/</loc>
+      <loc>/project/disparity/</loc>
       <lastmod>2015-06-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/project/physics/</loc>
+      <loc>/project/physics/</loc>
       <lastmod>2015-06-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/publication_types/7/</loc>
+      <loc>/publication_types/7/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -132,46 +132,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://masenov.github.io/tags/deep-learning/</loc>
-      <lastmod>2015-06-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://masenov.github.io/tags/gaussian-processes/</loc>
-      <lastmod>2015-06-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://masenov.github.io/tags/hello/</loc>
-      <lastmod>2017-06-12T12:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://masenov.github.io/</loc>
+      <loc>/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -181,7 +142,16 @@
     
     <url>
     
-      <loc>https://masenov.github.io/tags/neuroscience/</loc>
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/deep-learning/</loc>
       <lastmod>2015-06-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -191,7 +161,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/project/</loc>
+      <loc>/tags/gaussian-processes/</loc>
       <lastmod>2015-06-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -201,7 +171,37 @@
     
     <url>
     
-      <loc>https://masenov.github.io/publication_types/</loc>
+      <loc>/tags/hello/</loc>
+      <lastmod>2017-06-12T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/neuroscience/</loc>
+      <lastmod>2015-06-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/</loc>
+      <lastmod>2015-06-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -211,7 +211,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -221,7 +221,7 @@
     
     <url>
     
-      <loc>https://masenov.github.io/tags/world/</loc>
+      <loc>/tags/world/</loc>
       <lastmod>2017-06-12T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
