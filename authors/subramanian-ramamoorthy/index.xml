@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subramanian Ramamoorthy on Academic</title>
+    <link>/authors/subramanian-ramamoorthy/</link>
+    <description>Recent content in Subramanian Ramamoorthy on Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/subramanian-ramamoorthy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vid2Param: Online system identification from video for robotics applications</title>
+      <link>/publication/bouncing-ball/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bouncing-ball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active Localization of Gas Leaks using Fluid Simulation</title>
+      <link>/publication/active-sensing/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/active-sensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous Multi-species Environmental Gas Sensing Using Drone-based Fourier-transform Infrared Spectroscopy</title>
+      <link>/publication/optics-express/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/optics-express/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,103 +1,214 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.32.2" />
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
   <meta name="author" content="Martin Asenov">
-  <meta name="description" content="PhD student">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="С развитието на машиното самообучение и поредната вълна от интерес към невронните мрежи, интелигентни системи от голям мащаб като автономни автомобили са на път да станат реалност. Това довежда до въпроса кой носи отговорност при възникване на проблем и неизправност в системата. В тази презентация ще се запознаем с Гаусови процеси – теорията за тях и връзката им с невронни мрежи. Също така ще поговорим за активно семплиране и несигурност в различни модели и защо те са важни за бъдещето развитие на машинното самообучение. ">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/talk/softuni/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
 
   
   
   
   
     
-  
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
     
     
-    <link rel="stylesheet" href="/css/highlight.min.css">
     
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-  
-  
-
-
-  
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
-  
-  <link rel="stylesheet" href="/styles.css">
-  
-
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-100912427-1', 'auto');
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
+      
     
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
     
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
   
 
-  <link rel="alternate" href="" type="application/rss+xml" title="Academic">
-  <link rel="feed" href="" type="application/rss+xml" title="Academic">
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
 
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.3834c081887e44130d565828d71a7178.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="/talk/softuni/">
 
   
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="/talk/softuni/">
+  <meta property="og:title" content="Гаусови процеси - когато невронните мрежи не са достатъчни (Gaussian Processes - when neural networks are not enough) | Academic">
+  <meta property="og:description" content="С развитието на машиното самообучение и поредната вълна от интерес към невронните мрежи, интелигентни системи от голям мащаб като автономни автомобили са на път да станат реалност. Това довежда до въпроса кой носи отговорност при възникване на проблем и неизправност в системата. В тази презентация ще се запознаем с Гаусови процеси – теорията за тях и връзката им с невронни мрежи. Също така ще поговорим за активно семплиране и несигурност в различни модели и защо те са важни за бъдещето развитие на машинното самообучение. "><meta property="og:image" content="/talk/softuni/featured.png">
+  <meta property="twitter:image" content="/talk/softuni/featured.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2017-07-29T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2017-07-29T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
 
   <title>Гаусови процеси - когато невронните мрежи не са достатъчни (Gaussian Processes - when neural networks are not enough) | Academic</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Academic</a>
       
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
       </button>
       
-      <a class="navbar-brand" href="/">Academic</a>
-    </div>
 
     
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" id="navbar">
 
       
-      <ul class="nav navbar-nav navbar-right">
+      
+      <ul class="navbar-nav mr-auto">
         
 
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
         
 
         <li class="nav-item">
-          <a href="/#about">
-            
-            <span>Home</span>
-          </a>
+          <a class="nav-link " href="/#about"><span>Home</span></a>
         </li>
 
         
@@ -105,11 +216,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#talks">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Talks</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
         </li>
 
         
@@ -117,11 +245,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#projects">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Projects</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
         </li>
 
         
@@ -129,11 +274,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#publications">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Publications</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
         </li>
 
         
@@ -141,11 +303,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#teaching">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Teaching</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -153,149 +332,264 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#contact">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Contact</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
         </li>
 
         
         
 
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
         
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
       </ul>
 
     </div>
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <div class="pub" itemscope itemtype="http://schema.org/Event">
 
   
 
 
-  <div class="article-container">
 
-    <div class="pub-title">
-      <h1 itemprop="name">Гаусови процеси - когато невронните мрежи не са достатъчни (Gaussian Processes - when neural networks are not enough)</h1>
-      <span class="pub-authors" itemprop="author">
-        
-      </span>
-      <span class="pull-right">
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1 itemprop="name">Гаусови процеси - когато невронните мрежи не са достатъчни (Gaussian Processes - when neural networks are not enough)</h1>
+
+  
+
+  
+
+
+
+<meta content="2017-07-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2017-07-29 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29&amp;url=%2ftalk%2fsoftuni%2f"
-         target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2ftalk%2fsoftuni%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2fsoftuni%2f&amp;title=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29"
-         target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2ftalk%2fsoftuni%2f&amp;title=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29"
-         target="_blank">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29&amp;body=%2ftalk%2fsoftuni%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/talk/softuni/&amp;text=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/talk/softuni/&amp;t=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29&amp;body=/talk/softuni/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/talk/softuni/&amp;title=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29%20/talk/softuni/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/talk/softuni/&amp;title=%d0%93%d0%b0%d1%83%d1%81%d0%be%d0%b2%d0%b8%20%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81%d0%b8%20-%20%d0%ba%d0%be%d0%b3%d0%b0%d1%82%d0%be%20%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d1%82%d0%b5%20%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%20%d0%bd%d0%b5%20%d1%81%d0%b0%20%d0%b4%d0%be%d1%81%d1%82%d0%b0%d1%82%d1%8a%d1%87%d0%bd%d0%b8%20%28Gaussian%20Processes%20-%20when%20neural%20networks%20are%20not%20enough%29" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
   </ul>
 </div>
 
 
-      </span>
-    </div>
+  
 
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">С развитието на машиното самообучение и поредната вълна от интерес към невронните мрежи, интелигентни системи от голям мащаб като автономни автомобили са на път да станат реалност. Това довежда до въпроса кой носи отговорност при възникване на проблем и неизправност в системата. В тази презентация ще се запознаем с Гаусови процеси – теорията за тях и връзката им с невронни мрежи. Също така ще поговорим за активно семплиране и несигурност в различни модели и защо те са важни за бъдещето развитие на машинното самообучение. </p>
-    
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            Jul 29, 2017
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
-          <div class="col-xs-12 col-sm-9">
-            <a href="https://softuni.bg/trainings/1725/machine-learning-when-neural-networks-are-not-enough" target="_blank">
-            Machine Learning Semiar, SoftUni
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">Sofia, Bulgaria</div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    
-    <div class="row" style="padding-top: 10px">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-xs-12 col-sm-9">
-
-            
-
-
-
-
-
-<a class="btn btn-primary btn-outline" href="/pdf/SoftUniGP.pdf">
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/SoftUniGP.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?time_continue=1&amp;v=XEgRZpb61ck">
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?time_continue=1&amp;v=XEgRZpb61ck" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -303,12 +597,77 @@
 
 
 
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 484px;">
+  <div style="position: relative">
+    <img src="/talk/softuni/featured_hua104e776de1b354daab632d4324f062e_1407262_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract" itemprop="text">С развитието на машиното самообучение и поредната вълна от интерес към невронните мрежи, интелигентни системи от голям мащаб като автономни автомобили са на път да станат реалност. Това довежда до въпроса кой носи отговорност при възникване на проблем и неизправност в системата. В тази презентация ще се запознаем с Гаусови процеси – теорията за тях и връзката им с невронни мрежи. Също така ще поговорим за активно семплиране и несигурност в различни модели и защо те са важни за бъдещето развитие на машинното самообучение.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            
+            Jul 29, 2017
+            <div class="talk-time">
+              
+                12:00 AM
+                
+              
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-1"></div>
+      <div class="col-md-1"></div>
     </div>
-    <div class="visible-xs space-below"></div>
+    <div class="d-md-none space-below"></div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://softuni.bg/trainings/1725/machine-learning-when-neural-networks-are-not-enough" target="_blank" rel="noopener">
+            Machine Learning Semiar, SoftUni
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Sofia, Bulgaria</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
@@ -317,87 +676,287 @@
       
     </div>
 
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hud391e7467c6c8494a9bf50fcbcc7d9b1_316411_250x250_fill_lanczos_center_2.png" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/">Martin Asenov</a></h5>
+      <h6 class="card-subtitle">PhD Candidate</h6>
+      <p class="card-text" itemprop="description">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/masenov1" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=zFULG8IAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/masenov" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
   </div>
 </div>
 
-<div class="container">
-  <nav>
-  <ul class="pager">
-    
-    <li class="previous"><a href="/talk/example-talk/"><span
-      aria-hidden="true">&larr;</span> Gaussian Processes. Theory and Applications</a></li>
-    
 
-    
-  </ul>
-</nav>
 
-</div>
-
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
-
-      &copy; 2017 Martin Asenov &middot; 
-
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
-
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
-
-    </p>
-  </div>
-</footer>
-
-    
-
-    
-    
-
-    
-    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyAQISQzJFne6IvZofZC9DlxIjp5nzV7gj8"></script>
-    
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-    
-    <script src="/js/hugo-academic.js"></script>
-    
-
-    
-    
       
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
       
 
       
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
 
-      <script>hljs.initHighlightingOnLoad();</script>
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
     
 
     
     
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+      <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyAQISQzJFne6IvZofZC9DlxIjp5nzV7gj8"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
     </script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+
     
     
 
-  </body>
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.98ea4faec9c45f666e4a8a91902fa456.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
-

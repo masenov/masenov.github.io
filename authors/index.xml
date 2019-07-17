@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Academic</title>
+    <link>/authors/</link>
+    <description>Recent content in Authors on Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&lt;strong&gt;Martin Asenov&lt;/strong&gt;</title>
+      <link>/authors/strongmartin-asenov/strong/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/strongmartin-asenov/strong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniel Angelov</title>
+      <link>/authors/daniel-angelov/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/daniel-angelov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kartic Subr</title>
+      <link>/authors/kartic-subr/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/kartic-subr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michael Burke</title>
+      <link>/authors/michael-burke/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/michael-burke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subramanian Ramamoorthy</title>
+      <link>/authors/subramanian-ramamoorthy/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/subramanian-ramamoorthy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Todor Davchev</title>
+      <link>/authors/todor-davchev/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/todor-davchev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Derryck Reid</title>
+      <link>/authors/derryck-reid/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/derryck-reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marius Rutkauskas</title>
+      <link>/authors/marius-rutkauskas/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/marius-rutkauskas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Currently, I am a PhD student at the University of Edinburgh, working on active sensing with UAV, in collaboration with Heriot-Watt University and the Defence Science and Technology Laboratory. I am holding a Master by Research in Robotics and Autonumous Systems, a joint program between The University of Edinburgh and Heriot-Watt University. I also hold a BSc in Artificial Intelligence and Computer Science from the University of Edinburgh. During my undergraduate studies I was also able to go to the Uninversity of California, Irvine for a year-long exchange.&lt;/p&gt;
+
+&lt;p&gt;Currently I am looking into the problem of active sensing using UAV mounted sensors (chemical, light, wing, etc.). For the purpose I am building probabilistic models of the entire field of interest (using Gaussian Processes for example), to inform sampling picking places of high uncertainty or possible highest readings. I am also interested in modular neural networks and physics engines to try to actively model dynamics of real-world scenes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ali Hashemi</title>
+      <link>/authors/ali-hashemi/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/ali-hashemi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anahit Sargsyan</title>
+      <link>/authors/anahit-sargsyan/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/anahit-sargsyan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Charlie Pisuraj</title>
+      <link>/authors/charlie-pisuraj/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/charlie-pisuraj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christopher Prijic</title>
+      <link>/authors/christopher-prijic/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/christopher-prijic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eric Wengert</title>
+      <link>/authors/eric-wengert/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/eric-wengert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jose Ortega</title>
+      <link>/authors/jose-ortega/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/jose-ortega/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prof. Haithem Taha</title>
+      <link>/authors/prof.-haithem-taha/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/prof.-haithem-taha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ryan Wilson</title>
+      <link>/authors/ryan-wilson/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/ryan-wilson/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

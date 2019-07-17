@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Academic</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vid2Param: Online system identification from video for robotics applications</title>
+      <link>/publication/bouncing-ball/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bouncing-ball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active Localization of Gas Leaks using Fluid Simulation</title>
+      <link>/publication/active-sensing/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/active-sensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous Multi-species Environmental Gas Sensing Using Drone-based Fourier-transform Infrared Spectroscopy</title>
+      <link>/publication/optics-express/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/optics-express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active sensing of spatiotemporal phenomenawith a UAV</title>
+      <link>/publication/msc-thesis/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/msc-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Model of Interactions between Orientation Selective Neurons in Primary Visual Cortex</title>
+      <link>/publication/bsc-thesis/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bsc-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UAV Forge: Innovation for Personal Autonomous Systems</title>
+      <link>/publication/uav-forge/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/uav-forge/</guid>
+      <description>&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;Won Dean&amp;rsquo;s Choice Award.&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

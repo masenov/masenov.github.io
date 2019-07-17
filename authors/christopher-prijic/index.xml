@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher Prijic on Academic</title>
+    <link>/authors/christopher-prijic/</link>
+    <description>Recent content in Christopher Prijic on Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/christopher-prijic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UAV Forge: Innovation for Personal Autonomous Systems</title>
+      <link>/publication/uav-forge/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/uav-forge/</guid>
+      <description>&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;Won Dean&amp;rsquo;s Choice Award.&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

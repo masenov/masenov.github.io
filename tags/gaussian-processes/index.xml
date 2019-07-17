@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaussian Processes on Academic</title>
+    <link>/tags/gaussian-processes/</link>
+    <description>Recent content in Gaussian Processes on Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/gaussian-processes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gaussian processes.Theory and applications in predictive modeling of spatiotemporal phenomena.</title>
+      <link>/project/gp/</link>
+      <pubDate>Sat, 06 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/project/gp/</guid>
+      <description>&lt;p&gt;In this report we present a tutorial on Gaussian Processes.  The report explainsthe  theory  behind  them,  provide  implementation  details  and  conduct  series  ofexperiments to give a further intuition of how they work.  We touch on number ofmore advance topics like connections with neural nets and hierarchical GaussianProcesses.  In the second part of the report we look into the problems of activesensing  and  modeling  spatiotemporal  phenomena  and  why  Gaussian  Processesare well suited for those tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
