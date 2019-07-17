@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning on Academic</title>
-    <link>/tags/deep-learning/</link>
+    <link>https://masenov.com/tags/deep-learning/</link>
     <description>Recent content in Deep Learning on Academic</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jun 2015 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://masenov.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Generating disparity maps using Convolutional Neural Networks</title>
-      <link>/project/disparity/</link>
+      <link>https://masenov.com/project/disparity/</link>
       <pubDate>Sat, 06 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/project/disparity/</guid>
+      <guid>https://masenov.com/project/disparity/</guid>
       <description>&lt;p&gt;Extracting 3D information from a scene is both a fundamental problem in Computer Vision and one of the field&amp;rsquo;s most valuable applications. A lot of solutions exists using specialized hardware like 3d cameras, different radar systems, Kinect, etc. However, all of them has trade-offs in terms of their accuracy, price and limitations that are usually unsatisfactory for commercial applications. In this paper we present a method for extracting 3D information from cameras that aims to partially mitigate the problems that prevent them to be the cheap and reliable solution for the stereo vision problem. Our solution is based on Convolutional Neural Networks which recently gained popularity for the problem of visual recognition. We modify their architecture to be better suited for depth map extraction and test them on both single and multi-view camera images. Furthermore, we make use of computer graphics generated data and experiment with transferring our results from animated pictures to the real ones.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Intuitive Physics&amp;#58; Understanding Dynamics in Real World Physical Scenes</title>
-      <link>/project/physics/</link>
+      <link>https://masenov.com/project/physics/</link>
       <pubDate>Sat, 06 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/project/physics/</guid>
+      <guid>https://masenov.com/project/physics/</guid>
       <description>&lt;p&gt;Intuitive physics, or naive physics, is our ability to predict outcomes of a varietyof basic physical interactions and to reason about the dynamics of a scene.  It is animportant ability people have, a crucial part of our intelligence, that helps us dealwith the complexity of the surrounding world.&lt;/p&gt;
 </description>
     </item>

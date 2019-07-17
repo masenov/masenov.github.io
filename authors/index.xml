@@ -2,166 +2,166 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Academic</title>
-    <link>/authors/</link>
+    <link>https://masenov.com/authors/</link>
     <description>Recent content in Authors on Academic</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://masenov.com/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>&lt;strong&gt;Martin Asenov&lt;/strong&gt;</title>
-      <link>/authors/strongmartin-asenov/strong/</link>
+      <link>https://masenov.com/authors/strongmartin-asenov/strong/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/strongmartin-asenov/strong/</guid>
+      <guid>https://masenov.com/authors/strongmartin-asenov/strong/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Daniel Angelov</title>
-      <link>/authors/daniel-angelov/</link>
+      <link>https://masenov.com/authors/daniel-angelov/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/daniel-angelov/</guid>
+      <guid>https://masenov.com/authors/daniel-angelov/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kartic Subr</title>
-      <link>/authors/kartic-subr/</link>
+      <link>https://masenov.com/authors/kartic-subr/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/kartic-subr/</guid>
+      <guid>https://masenov.com/authors/kartic-subr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Michael Burke</title>
-      <link>/authors/michael-burke/</link>
+      <link>https://masenov.com/authors/michael-burke/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/michael-burke/</guid>
+      <guid>https://masenov.com/authors/michael-burke/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Subramanian Ramamoorthy</title>
-      <link>/authors/subramanian-ramamoorthy/</link>
+      <link>https://masenov.com/authors/subramanian-ramamoorthy/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/subramanian-ramamoorthy/</guid>
+      <guid>https://masenov.com/authors/subramanian-ramamoorthy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Todor Davchev</title>
-      <link>/authors/todor-davchev/</link>
+      <link>https://masenov.com/authors/todor-davchev/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/todor-davchev/</guid>
+      <guid>https://masenov.com/authors/todor-davchev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Derryck Reid</title>
-      <link>/authors/derryck-reid/</link>
+      <link>https://masenov.com/authors/derryck-reid/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/derryck-reid/</guid>
+      <guid>https://masenov.com/authors/derryck-reid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marius Rutkauskas</title>
-      <link>/authors/marius-rutkauskas/</link>
+      <link>https://masenov.com/authors/marius-rutkauskas/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/marius-rutkauskas/</guid>
+      <guid>https://masenov.com/authors/marius-rutkauskas/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>https://masenov.com/authors/admin/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/admin/</guid>
+      <guid>https://masenov.com/authors/admin/</guid>
       <description>&lt;p&gt;I am a PhD candidate at The University of Edinburgh and Heriot-Watt University, part of the &lt;a href=&#34;http://rad.inf.ed.ac.uk/&#34;&gt;RAD group&lt;/a&gt; , supervised by &lt;a href=&#34;http://rad.inf.ed.ac.uk/research.html&#34;&gt;Dr. Subramanian Ramamoorthy&lt;/a&gt; and &lt;a href=&#34;http://homepages.inf.ed.ac.uk/ksubr/&#34;&gt;Dr. Kartic Subr&lt;/a&gt;. I am working on the interection of Robotics, Machine Learning and Physics, i.e. how can we solve highly dynamical tasks in uncertain environments by incorportaing physical inductive bias. This allows for performing tasks such as &lt;a href=&#34;publication/active-sensing/&#34;&gt;localizing a gas leakage&lt;/a&gt; with a UAV, &lt;a href=&#34;publication/bouncing-ball/&#34;&gt;stopping an unknown bouncing ball mid-air&lt;/a&gt;, etc., by incorportaing useful bias for wind and gas dispersion; free fall and restitution; etc.  I am also a committee member of &lt;a href=&#34;https://edintelligence.github.io&#34;&gt;EdIntelligence&lt;/a&gt; and cohort representative for the &lt;a href=&#34;https://www.edinburgh-robotics.org&#34;&gt;Robotics RAS CDT&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ali Hashemi</title>
-      <link>/authors/ali-hashemi/</link>
+      <link>https://masenov.com/authors/ali-hashemi/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/authors/ali-hashemi/</guid>
+      <guid>https://masenov.com/authors/ali-hashemi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anahit Sargsyan</title>
-      <link>/authors/anahit-sargsyan/</link>
+      <link>https://masenov.com/authors/anahit-sargsyan/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/authors/anahit-sargsyan/</guid>
+      <guid>https://masenov.com/authors/anahit-sargsyan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Charlie Pisuraj</title>
-      <link>/authors/charlie-pisuraj/</link>
+      <link>https://masenov.com/authors/charlie-pisuraj/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/authors/charlie-pisuraj/</guid>
+      <guid>https://masenov.com/authors/charlie-pisuraj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Christopher Prijic</title>
-      <link>/authors/christopher-prijic/</link>
+      <link>https://masenov.com/authors/christopher-prijic/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/authors/christopher-prijic/</guid>
+      <guid>https://masenov.com/authors/christopher-prijic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eric Wengert</title>
-      <link>/authors/eric-wengert/</link>
+      <link>https://masenov.com/authors/eric-wengert/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/authors/eric-wengert/</guid>
+      <guid>https://masenov.com/authors/eric-wengert/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jose Ortega</title>
-      <link>/authors/jose-ortega/</link>
+      <link>https://masenov.com/authors/jose-ortega/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/authors/jose-ortega/</guid>
+      <guid>https://masenov.com/authors/jose-ortega/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prof. Haithem Taha</title>
-      <link>/authors/prof.-haithem-taha/</link>
+      <link>https://masenov.com/authors/prof.-haithem-taha/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/authors/prof.-haithem-taha/</guid>
+      <guid>https://masenov.com/authors/prof.-haithem-taha/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ryan Wilson</title>
-      <link>/authors/ryan-wilson/</link>
+      <link>https://masenov.com/authors/ryan-wilson/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/authors/ryan-wilson/</guid>
+      <guid>https://masenov.com/authors/ryan-wilson/</guid>
       <description></description>
     </item>
     
