@@ -3,18 +3,19 @@
   <channel>
     <title>Academic</title>
     <link>https://masenov.com/authors/admin/</link>
-    <description>Recent content on Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    
-	    <atom:link href="https://masenov.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://masenov.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://masenov.com/img/icon-192.png</url>
+      <title>Academic</title>
+      <link>https://masenov.com/authors/admin/</link>
+    </image>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
       <link>https://masenov.com/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://masenov.com/post/jupyter/</guid>
       <description>
 
@@ -77,7 +78,6 @@ rm Untitled.md
       <title>Academic: the website builder for Hugo</title>
       <link>https://masenov.com/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://masenov.com/post/getting-started/</guid>
       <description>
 
@@ -308,7 +308,6 @@ rm Untitled.md
       <title></title>
       <link>https://masenov.com/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://masenov.com/authors/admin/</guid>
       <description>&lt;p&gt;I am a PhD candidate at The University of Edinburgh and Heriot-Watt University, part of the &lt;a href=&#34;http://rad.inf.ed.ac.uk/&#34;&gt;RAD group&lt;/a&gt; , supervised by &lt;a href=&#34;http://rad.inf.ed.ac.uk/research.html&#34;&gt;Dr. Subramanian Ramamoorthy&lt;/a&gt; and &lt;a href=&#34;http://homepages.inf.ed.ac.uk/ksubr/&#34;&gt;Dr. Kartic Subr&lt;/a&gt;. I am working on the interection of Robotics, Machine Learning and Physics, i.e. how can we solve highly dynamical tasks in uncertain environments by incorportaing physical inductive bias. This allows for performing tasks such as &lt;a href=&#34;publication/active-sensing/&#34;&gt;localizing a gas leakage&lt;/a&gt; with a UAV, &lt;a href=&#34;publication/bouncing-ball/&#34;&gt;stopping an unknown bouncing ball mid-air&lt;/a&gt;, etc., by incorportaing useful bias for wind and gas dispersion; free fall and restitution; etc.  I am also a committee member of &lt;a href=&#34;https://edintelligence.github.io&#34;&gt;EdIntelligence&lt;/a&gt; and cohort representative for the &lt;a href=&#34;https://www.edinburgh-robotics.org&#34;&gt;Robotics RAS CDT&lt;/a&gt;.&lt;/p&gt;
 </description>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anahit Sargsyan on Academic</title>
+    <title>Anahit Sargsyan | Academic</title>
     <link>https://masenov.com/authors/anahit-sargsyan/</link>
-    <description>Recent content in Anahit Sargsyan on Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://masenov.com/authors/anahit-sargsyan/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://masenov.com/authors/anahit-sargsyan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anahit Sargsyan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://masenov.com/img/icon-192.png</url>
+      <title>Anahit Sargsyan</title>
+      <link>https://masenov.com/authors/anahit-sargsyan/</link>
+    </image>
     
     <item>
       <title>UAV Forge: Innovation for Personal Autonomous Systems</title>
       <link>https://masenov.com/publication/uav-forge/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://masenov.com/publication/uav-forge/</guid>
       <description>&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;Won Dean&amp;rsquo;s Choice Award.&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
 </description>
