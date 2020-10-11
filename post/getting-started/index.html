@@ -204,6 +204,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100912427-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-100912427-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -692,7 +728,7 @@
 
     <div class="article-style">
       <p><strong>Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 <em>widgets</em>, <em>themes</em>, and <em>language packs</em> included!</strong></p>
-<p><a href="https://academic-demo.netlify.com/">Check out the latest <strong>demo</strong></a> of what you'll get in less than 10 minutes, or <a href="https://sourcethemes.com/academic/#expo">view the <strong>showcase</strong></a> of personal, project, and business sites.</p>
+<p><a href="https://academic-demo.netlify.com/">Check out the latest <strong>demo</strong></a> of what you&rsquo;ll get in less than 10 minutes, or <a href="https://sourcethemes.com/academic/#expo">view the <strong>showcase</strong></a> of personal, project, and business sites.</p>
 <ul>
 <li><a href="#install"><strong>Setup Academic</strong></a></li>
 <li><a href="https://sourcethemes.com/academic/docs/get-started/"><strong>Get Started</strong></a></li>

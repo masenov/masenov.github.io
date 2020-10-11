@@ -204,6 +204,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100912427-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-100912427-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -560,12 +596,6 @@
     
     
       
-      <li><a href="https://masenov.com/authors/anahit-sargsyan/">Anahit Sargsyan</a></li>
-    
-      
-      <li><a href="https://masenov.com/authors/charlie-pisuraj/">Charlie Pisuraj</a></li>
-    
-      
       <li><a href="https://masenov.com/authors/christopher-prijic/">Christopher Prijic</a></li>
     
       
@@ -579,6 +609,12 @@
     
       
       <li><a href="https://masenov.com/authors/ryan-wilson/">Ryan Wilson</a></li>
+    
+      
+      <li><a href="https://masenov.com/authors/admin/">Martin Asenov</a></li>
+    
+      
+      <li><a href="https://masenov.com/authors/strongmartin-asenov/strong/">Martin Asenov</a></li>
     
   </ul>
 
