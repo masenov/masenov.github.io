@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.7.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -51,7 +51,7 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -63,8 +63,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -213,13 +213,15 @@
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -229,7 +231,7 @@
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
@@ -288,8 +290,6 @@
 
 
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -317,7 +317,7 @@
     "name": "Academic",
     "logo": {
       "@type": "ImageObject",
-      "url": "img/https://masenov.com/"
+      "url": "https://masenov.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Create a beautifully simple website in under 10 minutes."
@@ -378,10 +378,15 @@
 
   
 
+
+
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
-    
     
     <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Academic</a>
@@ -658,11 +663,8 @@
   <div>
     
 
-
-
   
   <span><a href="/authors/admin/">Martin Asenov</a></span>
-
   </div>
   
   
@@ -728,20 +730,33 @@
 
     <div class="article-style">
       <p><strong>Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 <em>widgets</em>, <em>themes</em>, and <em>language packs</em> included!</strong></p>
-<p><a href="https://academic-demo.netlify.com/">Check out the latest <strong>demo</strong></a> of what you&rsquo;ll get in less than 10 minutes, or <a href="https://sourcethemes.com/academic/#expo">view the <strong>showcase</strong></a> of personal, project, and business sites.</p>
+<p>
+<a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener">Check out the latest <strong>demo</strong></a> of what you&rsquo;ll get in less than 10 minutes, or 
+<a href="https://sourcethemes.com/academic/#expo" target="_blank" rel="noopener">view the <strong>showcase</strong></a> of personal, project, and business sites.</p>
 <ul>
-<li><a href="#install"><strong>Setup Academic</strong></a></li>
-<li><a href="https://sourcethemes.com/academic/docs/get-started/"><strong>Get Started</strong></a></li>
-<li><a href="https://sourcethemes.com/academic/docs/">View the documentation</a></li>
-<li><a href="http://discuss.gohugo.io/">Ask a question</a></li>
-<li><a href="https://github.com/gcushen/hugo-academic/issues">Request a feature or report a bug</a></li>
-<li>Updating? View the <a href="https://sourcethemes.com/academic/docs/update/">Update Guide</a> and <a href="https://sourcethemes.com/academic/updates/">Release Notes</a></li>
+<li>
+<a href="#install"><strong>Setup Academic</strong></a></li>
+<li>
+<a href="https://sourcethemes.com/academic/docs/get-started/" target="_blank" rel="noopener"><strong>Get Started</strong></a></li>
+<li>
+<a href="https://sourcethemes.com/academic/docs/" target="_blank" rel="noopener">View the documentation</a></li>
+<li>
+<a href="http://discuss.gohugo.io/" target="_blank" rel="noopener">Ask a question</a></li>
+<li>
+<a href="https://github.com/gcushen/hugo-academic/issues" target="_blank" rel="noopener">Request a feature or report a bug</a></li>
+<li>Updating? View the 
+<a href="https://sourcethemes.com/academic/docs/update/" target="_blank" rel="noopener">Update Guide</a> and 
+<a href="https://sourcethemes.com/academic/updates/" target="_blank" rel="noopener">Release Notes</a></li>
 <li>Support development of Academic:
 <ul>
-<li><a href="https://paypal.me/cushen">Donate a coffee</a></li>
-<li><a href="https://www.patreon.com/cushen">Become a backer on Patreon</a></li>
-<li><a href="https://www.redbubble.com/people/neutreno/works/34387919-academic">Decorate your laptop or journal with an Academic sticker</a></li>
-<li><a href="https://academic.threadless.com/">Wear the T-shirt</a></li>
+<li>
+<a href="https://paypal.me/cushen" target="_blank" rel="noopener">Donate a coffee</a></li>
+<li>
+<a href="https://www.patreon.com/cushen" target="_blank" rel="noopener">Become a backer on Patreon</a></li>
+<li>
+<a href="https://www.redbubble.com/people/neutreno/works/34387919-academic" target="_blank" rel="noopener">Decorate your laptop or journal with an Academic sticker</a></li>
+<li>
+<a href="https://academic.threadless.com/" target="_blank" rel="noopener">Wear the T-shirt</a></li>
 </ul>
 </li>
 </ul>
@@ -758,11 +773,16 @@
 
 
 
-<figure>
+
+
+<figure >
 
 
   <a data-fancybox="" href="https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png" >
-<img data-src="https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png" class="lazyload" alt="" ></a>
+
+
+  <img src="https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png" alt=""  >
+</a>
 
 
 
@@ -770,12 +790,21 @@
 
 <p><strong>Key features:</strong></p>
 <ul>
-<li><strong>Page builder</strong> - Create <em>anything</em> with <a href="https://sourcethemes.com/academic/docs/page-builder/"><strong>widgets</strong></a> and <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/"><strong>elements</strong></a></li>
+<li><strong>Page builder</strong> - Create <em>anything</em> with 
+<a href="https://sourcethemes.com/academic/docs/page-builder/" target="_blank" rel="noopener"><strong>widgets</strong></a> and 
+<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener"><strong>elements</strong></a></li>
 <li><strong>Edit any type of content</strong> - Blog posts, publications, talks, slides, projects, and more!</li>
-<li><strong>Create content</strong> in <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/"><strong>Markdown</strong></a>, <a href="https://sourcethemes.com/academic/docs/jupyter/"><strong>Jupyter</strong></a>, or <a href="https://sourcethemes.com/academic/docs/install/#install-with-rstudio"><strong>RStudio</strong></a></li>
-<li><strong>Plugin System</strong> - Fully customizable <a href="https://sourcethemes.com/academic/themes/"><strong>color</strong> and <strong>font themes</strong></a></li>
-<li><strong>Display Code and Math</strong> - Code highlighting and <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTeX math</a> supported</li>
-<li><strong>Integrations</strong> - <a href="https://analytics.google.com">Google Analytics</a>, <a href="https://disqus.com">Disqus commenting</a>, Maps, Contact Forms, and more!</li>
+<li><strong>Create content</strong> in 
+<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener"><strong>Markdown</strong></a>, 
+<a href="https://sourcethemes.com/academic/docs/jupyter/" target="_blank" rel="noopener"><strong>Jupyter</strong></a>, or 
+<a href="https://sourcethemes.com/academic/docs/install/#install-with-rstudio" target="_blank" rel="noopener"><strong>RStudio</strong></a></li>
+<li><strong>Plugin System</strong> - Fully customizable 
+<a href="https://sourcethemes.com/academic/themes/" target="_blank" rel="noopener"><strong>color</strong> and <strong>font themes</strong></a></li>
+<li><strong>Display Code and Math</strong> - Code highlighting and 
+<a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="noopener">LaTeX math</a> supported</li>
+<li><strong>Integrations</strong> - 
+<a href="https://analytics.google.com" target="_blank" rel="noopener">Google Analytics</a>, 
+<a href="https://disqus.com" target="_blank" rel="noopener">Disqus commenting</a>, Maps, Contact Forms, and more!</li>
 <li><strong>Beautiful Site</strong> - Simple and refreshing one page design</li>
 <li><strong>Industry-Leading SEO</strong> - Help get your website found on search engines and social media</li>
 <li><strong>Media Galleries</strong> - Display your images and videos with captions in a customizable gallery</li>
@@ -787,7 +816,8 @@
 <li><strong>One-Click Deployment</strong> - No servers. No databases. Only files.</li>
 </ul>
 <h2 id="color-themes">Color Themes</h2>
-<p>Academic comes with <strong>day (light) and night (dark) mode</strong> built-in. Click the sun/moon icon in the top right of the <a href="https://academic-demo.netlify.com/">Demo</a> to see it in action!</p>
+<p>Academic comes with <strong>day (light) and night (dark) mode</strong> built-in. Click the sun/moon icon in the top right of the 
+<a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener">Demo</a> to see it in action!</p>
 <p>Choose a stunning color and font theme for your site. Themes are fully customizable and include:</p>
 
 
@@ -817,7 +847,7 @@
       
     
   <a data-fancybox="gallery-gallery" href="/post/getting-started/gallery/theme-1950s.png" data-caption="1950s">
-  <img data-src="/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+  <img data-src="/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
   </a>
   
     
@@ -830,7 +860,7 @@
       
     
   <a data-fancybox="gallery-gallery" href="/post/getting-started/gallery/theme-apogee.png" data-caption="Apogee">
-  <img data-src="/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+  <img data-src="/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
   </a>
   
     
@@ -843,7 +873,7 @@
       
     
   <a data-fancybox="gallery-gallery" href="/post/getting-started/gallery/theme-coffee-playfair.png" data-caption="Coffee theme with Playfair font">
-  <img data-src="/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+  <img data-src="/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
   </a>
   
     
@@ -856,7 +886,7 @@
       
     
   <a data-fancybox="gallery-gallery" href="/post/getting-started/gallery/theme-dark.png" data-caption="Dark">
-  <img data-src="/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+  <img data-src="/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
   </a>
   
     
@@ -869,7 +899,7 @@
       
     
   <a data-fancybox="gallery-gallery" href="/post/getting-started/gallery/theme-default.png" data-caption="Default">
-  <img data-src="/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+  <img data-src="/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
   </a>
   
     
@@ -882,7 +912,7 @@
       
     
   <a data-fancybox="gallery-gallery" href="/post/getting-started/gallery/theme-forest.png" data-caption="Forest">
-  <img data-src="/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+  <img data-src="/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
   </a>
   
     
@@ -895,7 +925,7 @@
       
     
   <a data-fancybox="gallery-gallery" href="/post/getting-started/gallery/theme-ocean.png" data-caption="Ocean">
-  <img data-src="/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+  <img data-src="/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
   </a>
   
     
@@ -908,7 +938,7 @@
       
     
   <a data-fancybox="gallery-gallery" href="/post/getting-started/gallery/theme-strawberry.png" data-caption="Strawberry">
-  <img data-src="/post/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+  <img data-src="/post/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
   </a>
   
 
@@ -916,24 +946,36 @@
 </div>
 <h2 id="ecosystem">Ecosystem</h2>
 <ul>
-<li><strong><a href="https://github.com/sourcethemes/academic-admin">Academic Admin</a>:</strong> An admin tool to import publications from BibTeX or import assets for an offline site</li>
-<li><strong><a href="https://github.com/sourcethemes/academic-scripts">Academic Scripts</a>:</strong> Scripts to help migrate content to new versions of Academic</li>
+<li><strong>
+<a href="https://github.com/sourcethemes/academic-admin" target="_blank" rel="noopener">Academic Admin</a>:</strong> An admin tool to import publications from BibTeX or import assets for an offline site</li>
+<li><strong>
+<a href="https://github.com/sourcethemes/academic-scripts" target="_blank" rel="noopener">Academic Scripts</a>:</strong> Scripts to help migrate content to new versions of Academic</li>
 </ul>
 <h2 id="install">Install</h2>
 <p>You can choose from one of the following four methods to install:</p>
 <ul>
-<li><a href="https://sourcethemes.com/academic/docs/install/#install-with-web-browser"><strong>one-click install using your web browser (recommended)</strong></a></li>
-<li><a href="https://sourcethemes.com/academic/docs/install/#install-with-git">install on your computer using <strong>Git</strong> with the Command Prompt/Terminal app</a></li>
-<li><a href="https://sourcethemes.com/academic/docs/install/#install-with-zip">install on your computer by downloading the <strong>ZIP files</strong></a></li>
-<li><a href="https://sourcethemes.com/academic/docs/install/#install-with-rstudio">install on your computer with <strong>RStudio</strong></a></li>
+<li>
+<a href="https://sourcethemes.com/academic/docs/install/#install-with-web-browser" target="_blank" rel="noopener"><strong>one-click install using your web browser (recommended)</strong></a></li>
+<li>
+<a href="https://sourcethemes.com/academic/docs/install/#install-with-git" target="_blank" rel="noopener">install on your computer using <strong>Git</strong> with the Command Prompt/Terminal app</a></li>
+<li>
+<a href="https://sourcethemes.com/academic/docs/install/#install-with-zip" target="_blank" rel="noopener">install on your computer by downloading the <strong>ZIP files</strong></a></li>
+<li>
+<a href="https://sourcethemes.com/academic/docs/install/#install-with-rstudio" target="_blank" rel="noopener">install on your computer with <strong>RStudio</strong></a></li>
 </ul>
-<p>Then <a href="https://sourcethemes.com/academic/docs/get-started/">personalize and deploy your new site</a>.</p>
+<p>Then 
+<a href="https://sourcethemes.com/academic/docs/get-started/" target="_blank" rel="noopener">personalize and deploy your new site</a>.</p>
 <h2 id="updating">Updating</h2>
-<p><a href="https://sourcethemes.com/academic/docs/update/">View the Update Guide</a>.</p>
-<p>Feel free to <em>star</em> the project on <a href="https://github.com/gcushen/hugo-academic/">Github</a> to help keep track of <a href="https://sourcethemes.com/academic/updates">updates</a>.</p>
+<p>
+<a href="https://sourcethemes.com/academic/docs/update/" target="_blank" rel="noopener">View the Update Guide</a>.</p>
+<p>Feel free to <em>star</em> the project on 
+<a href="https://github.com/gcushen/hugo-academic/" target="_blank" rel="noopener">Github</a> to help keep track of 
+<a href="https://sourcethemes.com/academic/updates" target="_blank" rel="noopener">updates</a>.</p>
 <h2 id="license">License</h2>
-<p>Copyright 2016-present <a href="https://georgecushen.com">George Cushen</a>.</p>
-<p>Released under the <a href="https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md">MIT</a> license.</p>
+<p>Copyright 2016-present 
+<a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen</a>.</p>
+<p>Released under the 
+<a href="https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT</a> license.</p>
 
     </div>
 
@@ -1047,11 +1089,8 @@
 
 
   
-  
     
-  
-  
-
+    
 
 
 
@@ -1061,12 +1100,13 @@
   
   
     
+  
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_hud391e7467c6c8494a9bf50fcbcc7d9b1_316411_250x250_fill_lanczos_center_2.png" alt="Avatar">
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hud391e7467c6c8494a9bf50fcbcc7d9b1_316411_270x270_fill_lanczos_center_2.png" alt="Avatar">
     
 
     <div class="media-body">
@@ -1160,6 +1200,10 @@
   </div>
 
 
+  
+
+
+
 
 
 
@@ -1189,7 +1233,7 @@
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
       
 
@@ -1201,6 +1245,11 @@
     
     
     <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -1265,7 +1314,7 @@
     
     
     
-    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+    <script src="/js/academic.min.c816d323c3a55093dae0829b44ea1ca8.js"></script>
 
     
 

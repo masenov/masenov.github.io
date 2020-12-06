@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.7.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -51,7 +51,7 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -63,8 +63,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -213,13 +213,15 @@
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -229,7 +231,7 @@
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
@@ -288,8 +290,6 @@
 
 
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -317,7 +317,7 @@
     "name": "Academic",
     "logo": {
       "@type": "ImageObject",
-      "url": "img/https://masenov.com/"
+      "url": "https://masenov.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Learn how to blog in Academic using Jupyter notebooks"
@@ -378,10 +378,15 @@
 
   
 
+
+
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
-    
     
     <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Academic</a>
@@ -658,11 +663,8 @@
   <div>
     
 
-
-
   
   <span><a href="/authors/admin/">Martin Asenov</a></span>
-
   </div>
   
   
@@ -734,9 +736,11 @@ Image(<span style="color:#e6db74">&#39;https://www.python.org/static/community_l
 </code></pre></div><pre><code>Welcome to Academic!
 </code></pre>
 <h2 id="install-python-and-jupyter">Install Python and Jupyter</h2>
-<p><a href="https://www.anaconda.com/distribution/#download-section">Install Anaconda</a> which includes Python 3 and Jupyter notebook.</p>
+<p>
+<a href="https://www.anaconda.com/distribution/#download-section" target="_blank" rel="noopener">Install Anaconda</a> which includes Python 3 and Jupyter notebook.</p>
 <p>Otherwise, for advanced users, install Jupyter notebook with <code>pip3 install jupyter</code>.</p>
-<h2 id="create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post">Create a new blog post <a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post">as usual</a></h2>
+<h2 id="create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post">Create a new blog post 
+<a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post" target="_blank" rel="noopener">as usual</a></h2>
 <p>Run the following commands in your Terminal, substituting <code>&lt;MY_WEBSITE_FOLDER&gt;</code> and <code>my-post</code> with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd &lt;MY_WEBSITE_FOLDER&gt;
 hugo new  --kind post post/my-post
@@ -753,9 +757,12 @@ cat Untitled.md | tee -a index.md
 <span style="color:#75715e"># Remove the temporary file:</span>
 rm Untitled.md
 </code></pre></div><h2 id="edit-your-post-metadata">Edit your post metadata</h2>
-<p>Open <code>index.md</code> in your text editor and edit the title etc. in the <a href="https://sourcethemes.com/academic/docs/front-matter/">front matter</a> according to your preference.</p>
-<p>To set a <a href="https://sourcethemes.com/academic/docs/managing-content/#featured-image">featured image</a>, place an image named <code>featured</code> into your post&rsquo;s folder.</p>
-<p>For other tips, such as using math, see the guide on <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">writing content with Academic</a>.</p>
+<p>Open <code>index.md</code> in your text editor and edit the title etc. in the 
+<a href="https://sourcethemes.com/academic/docs/front-matter/" target="_blank" rel="noopener">front matter</a> according to your preference.</p>
+<p>To set a 
+<a href="https://sourcethemes.com/academic/docs/managing-content/#featured-image" target="_blank" rel="noopener">featured image</a>, place an image named <code>featured</code> into your post&rsquo;s folder.</p>
+<p>For other tips, such as using math, see the guide on 
+<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">writing content with Academic</a>.</p>
 
     </div>
 
@@ -863,11 +870,8 @@ rm Untitled.md
 
 
   
-  
     
-  
-  
-
+    
 
 
 
@@ -877,12 +881,13 @@ rm Untitled.md
   
   
     
+  
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_hud391e7467c6c8494a9bf50fcbcc7d9b1_316411_250x250_fill_lanczos_center_2.png" alt="Avatar">
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hud391e7467c6c8494a9bf50fcbcc7d9b1_316411_270x270_fill_lanczos_center_2.png" alt="Avatar">
     
 
     <div class="media-body">
@@ -976,6 +981,10 @@ rm Untitled.md
   </div>
 
 
+  
+
+
+
 
 
 
@@ -1005,7 +1014,7 @@ rm Untitled.md
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
       
 
@@ -1017,6 +1026,11 @@ rm Untitled.md
     
     
     <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -1081,7 +1095,7 @@ rm Untitled.md
     
     
     
-    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+    <script src="/js/academic.min.c816d323c3a55093dae0829b44ea1ca8.js"></script>
 
     
 
