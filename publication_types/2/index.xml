@@ -5,12 +5,20 @@
     <link>https://masenov.com/publication_types/2/</link>
       <atom:link href="https://masenov.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://masenov.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://masenov.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://masenov.com/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Inversion of Ultrafast X-ray Scattering with Dynamics Constraints</title>
+      <link>https://masenov.com/publication/inversion/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://masenov.com/publication/inversion/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Vid2Param: Modelling of Dynamics Parameters from Video</title>

@@ -7,7 +7,7 @@
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://masenov.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://masenov.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://masenov.com/post/</link>
     </image>
@@ -17,11 +17,11 @@
       <link>https://masenov.com/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://masenov.com/post/jupyter/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython.core.display &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image
-Image(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;./academic_0_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to Academic!&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython.core.display &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Image(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;./academic_0_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to Academic!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;Welcome to Academic!
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
 &lt;p&gt;
@@ -30,21 +30,21 @@ Image(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://www.python.org/
 &lt;h2 id=&#34;create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post&#34;&gt;Create a new blog post 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
-hugo new  --kind post post/my-post
-cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new  --kind post post/my-post
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
 &lt;p&gt;Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em&gt;New &amp;gt; Python Notebook&lt;/em&gt;) or upload a notebook.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupyter notebook
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;.
-
-&lt;span style=&#34;color:#75715e&#34;&gt;# Copy the contents of Untitled.md and append it to index.md:&lt;/span&gt;
-cat Untitled.md | tee -a index.md
-
-&lt;span style=&#34;color:#75715e&#34;&gt;# Remove the temporary file:&lt;/span&gt;
-rm Untitled.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;jupyter notebook
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Copy the contents of Untitled.md and append it to index.md:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat Untitled.md | tee -a index.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Remove the temporary file:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm Untitled.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
 &lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
 &lt;p&gt;To set a 
@@ -177,7 +177,7 @@ rm Untitled.md
       
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://masenov.com/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -190,7 +190,7 @@ rm Untitled.md
       
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://masenov.com/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -203,7 +203,7 @@ rm Untitled.md
       
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://masenov.com/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -216,7 +216,7 @@ rm Untitled.md
       
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://masenov.com/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -229,7 +229,7 @@ rm Untitled.md
       
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://masenov.com/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -242,7 +242,7 @@ rm Untitled.md
       
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://masenov.com/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -255,7 +255,7 @@ rm Untitled.md
       
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://masenov.com/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -268,7 +268,7 @@ rm Untitled.md
       
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://masenov.com/post/getting-started/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://masenov.com/post/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;124&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
 

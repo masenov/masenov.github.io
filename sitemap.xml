@@ -1,288 +1,171 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://masenov.com/courses/example/example1/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/courses/example/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/courses/example/example2/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://masenov.com/publication_types/1/</loc>
+  </url><url>
+    <loc>https://masenov.com/publication_types/2/</loc>
     <lastmod>2020-12-06T10:21:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/</loc>
     <lastmod>2020-12-06T10:21:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/adam-kirrander/</loc>
     <lastmod>2020-12-06T10:21:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/</loc>
     <lastmod>2020-12-06T10:21:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication/inversion/</loc>
     <lastmod>2020-12-06T10:21:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/nikola-zotev/</loc>
     <lastmod>2020-12-06T10:21:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication_types/</loc>
     <lastmod>2020-12-06T10:21:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/subramanian-ramamoorthy/</loc>
     <lastmod>2020-12-06T10:21:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/talk/cg/</loc>
     <lastmod>2019-11-27T11:57:58+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://masenov.com/publication_types/2/</loc>
-    <lastmod>2019-12-12T10:53:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/daniel-angelov/</loc>
     <lastmod>2019-12-12T10:53:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/kartic-subr/</loc>
     <lastmod>2019-12-12T10:53:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/michael-burke/</loc>
     <lastmod>2019-12-12T10:53:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/todor-davchev/</loc>
     <lastmod>2019-12-12T10:53:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication/vid2param/</loc>
     <lastmod>2019-12-12T10:53:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication/active-sensing/</loc>
     <lastmod>2019-12-11T15:35:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/derryck-reid/</loc>
     <lastmod>2019-12-11T15:35:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/marius-rutkauskas/</loc>
     <lastmod>2019-12-11T15:35:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/tags/source-themes/</loc>
     <lastmod>2019-12-11T15:35:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/tags/</loc>
     <lastmod>2019-12-11T15:35:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication/optics-express/</loc>
     <lastmod>2019-09-25T18:21:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://masenov.com/authors/admin/</loc>
+    <lastmod>2019-07-17T09:43:41+01:00</lastmod>
+  </url><url>
     <loc>https://masenov.com/post/jupyter/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/slides/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/slides/example/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication_types/7/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication/msc-thesis/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/talk/softuni/</loc>
     <lastmod>2019-11-27T11:57:58+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/talk/gp/</loc>
     <lastmod>2019-07-29T12:19:49+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication/bsc-thesis/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/tags/academic/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/post/getting-started/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication_types/0/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/ali-hashemi/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/anahit-sargsyan/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/charlie-pisuraj/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/christopher-prijic/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/eric-wengert/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/jose-ortega/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/prof.-haithem-taha/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/ryan-wilson/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication/uav-forge/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/tags/deep-learning/</loc>
     <lastmod>2019-07-17T11:26:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/tags/gaussian-processes/</loc>
     <lastmod>2019-07-17T11:26:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/project/gp/</loc>
     <lastmod>2019-07-17T11:26:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/project/disparity/</loc>
     <lastmod>2019-07-17T11:26:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/project/physics/</loc>
     <lastmod>2019-07-17T11:26:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/project/</loc>
     <lastmod>2019-07-17T11:26:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://masenov.com/authors/admin/</loc>
-    <lastmod>2020-01-27T09:50:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/authors/strongmartin-asenov/strong/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/courses/</loc>
     <lastmod>2019-07-17T09:43:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/post/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/publication/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://masenov.com/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
-  
 </urlset>
