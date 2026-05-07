@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" class="roles-expanded">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +17,6 @@
   <script>document.documentElement.classList.add('has-js');</script>
 </head>
 <body>
-
-<canvas id="bg-particles" aria-hidden="true"></canvas>
 
 <!--
   =============================================================
@@ -50,10 +48,14 @@
       <div class="name">Martin Asenov</div>
 
       <div class="bio">
-        Hi, I'm Martin. I'm a Senior Machine Learning Engineer at
-        <a class="link" href="https://www.parexel.com/" target="_blank" rel="noopener">Parexel AI Labs</a>,
-        working on document intelligence — OCR, vision-language models, retrieval, and
-        structured document understanding for large-scale enterprise workflows.
+        Hi, I'm Martin, a Senior Machine Learning Engineer at
+        Parexel AI Labs.
+
+        <br>
+
+        I enjoy turning novel research ideas into production-grade systems — currently
+        working on document intelligence (RAG, OCR and vision-language models) for
+        corpus-level QA and large-scale unstructured document understanding in clinical trials.
 
         <br><br>
 
@@ -152,25 +154,8 @@
 
       <div class="terminal-line resume-header-line">
         <span class="resume-prompt">&gt;&nbsp;</span>
-        <button class="resume-mode" id="resume-mode" type="button" aria-pressed="false">[less resume.md]</button>
+        <button class="resume-mode" id="resume-mode" type="button" aria-pressed="true">[more resume.md]</button>
       </div>
-
-      <!-- ----- SUMMARY ----- -->
-      <section class="resume-section" id="section-summary">
-        <div class="row">
-          <div class="row-left"><h2 class="section-title">Summary</h2></div>
-          <div class="row-right">
-            <p>
-              Senior ML Engineer with industry experience across document intelligence,
-              ML systems, and applied research — and a research background in robotics,
-              active sensing and physics-informed learning. I like turning new ideas
-              into production systems with measurable impact, and publishing along the way.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <div class="divider"></div>
 
       <!-- ----- WORK EXPERIENCE -----
            To add a job: copy a <article class="role"> block and edit fields.
@@ -216,11 +201,20 @@
             <div class="role-title">Senior Machine Learning Engineer — Systems Infrastructure Research</div>
             <p class="role-lede">ML systems research across LLM inference, time-series foundation models and accelerator-aware deployment.</p>
             <ul>
-              <li>Led research across LLM inference,
+              <li>Research across LLM inference,
                 <a class="link" href="https://openreview.net/forum?id=W6K2g3XJze" target="_blank" rel="noopener">speculative decoding</a>,
-                time-series foundation models,
+                <a class="link" href="https://arxiv.org/abs/2407.17880" target="_blank" rel="noopener">time-series foundation models</a>,
                 <a class="link" href="https://arxiv.org/abs/2410.06145" target="_blank" rel="noopener">cloud workload forecasting</a>
-                and accelerator-aware deployment, with publications at ICML, ICLR, EuroSys, SoCC, EuroMLSys and IC2E.</li>
+                and
+                <a class="link" href="https://ieeexplore.ieee.org/document/10305841/" target="_blank" rel="noopener">accelerator-aware deployment</a>,
+                with publications at
+                <a class="link" href="https://arxiv.org/abs/2502.12920" target="_blank" rel="noopener">ICML</a>,
+                <a class="link" href="https://arxiv.org/abs/2407.17880" target="_blank" rel="noopener">ICLR</a>,
+                <a class="link" href="https://arxiv.org/abs/2410.06145" target="_blank" rel="noopener">EuroSys</a>,
+                <a class="link" href="https://arxiv.org/abs/2312.10127" target="_blank" rel="noopener">SoCC</a>,
+                <a class="link" href="https://dl.acm.org/doi/10.1145/3578356.3592582" target="_blank" rel="noopener">EuroMLSys</a>
+                and
+                <a class="link" href="https://ieeexplore.ieee.org/document/10305841/" target="_blank" rel="noopener">IC2E</a>.</li>
               <li>Managed a seven-person research team developing runtime prediction, scheduling and neural-network placement methods across heterogeneous GPU and accelerator infrastructure.</li>
               <li>Deployed production forecasting models for cloud resource prediction across multiple workloads, reducing infrastructure costs by thousands of pounds per month.</li>
               <li>Co-developed
@@ -332,7 +326,7 @@
               <li>Thesis: <em>“Architectures for Online Simulation-Based Inference Applied to Robot Motion Planning”</em>.</li>
               <li>Supervised by Prof. Subramanian Ramamoorthy and Dr. Kartic Subr.</li>
               <li><a class="link" href="https://arxiv.org/abs/1901.09608" target="_blank" rel="noopener">Gas localization with a UAV</a>,
-                <a class="link" href="https://arxiv.org/abs/1907.06422" target="_blank" rel="noopener">stopping an unknown bouncing ball mid-air</a>,
+                <a class="link" href="https://arxiv.org/abs/1907.06422" target="_blank" rel="noopener">inference of physical parameters from video</a>,
                 and
                 <a class="link" href="https://arxiv.org/abs/2109.05928" target="_blank" rel="noopener">intuitive-physics priors for control</a>.</li>
             </ul>
@@ -704,6 +698,5 @@
 </div>
 
 <script src="terminal.js"></script>
-<script src="particles.js"></script>
 </body>
 </html>

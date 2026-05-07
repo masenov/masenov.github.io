@@ -76,7 +76,7 @@
   var buffer = document.getElementById('cmd-buffer');
   if (!term || !buffer) return;
 
-  var SECTIONS = ['summary', 'experience', 'education', 'skills', 'publications', 'interests'];
+  var SECTIONS = ['experience', 'education', 'skills', 'publications', 'interests'];
 
   var MAN = {
     help:        'help — list available commands',

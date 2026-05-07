@@ -74,18 +74,6 @@ body {
   height: 100vh;
   overflow: hidden;            /* desktop: no body scroll; right pane scrolls */
 }
-/* Particle overlay: drawn above panes, never intercepts pointer events. */
-#bg-particles {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  pointer-events: none;
-  z-index: 9999;
-}
-@media (prefers-reduced-motion: reduce) {
-  #bg-particles { display: none; }
-}
 
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
