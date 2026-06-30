@@ -49,13 +49,9 @@
 
       <div class="bio">
         Hi, I'm Martin, a Senior Machine Learning Engineer at
-        Parexel AI Labs.
-
-        <br>
-
-        I enjoy turning novel research ideas into production-grade systems — currently
-        working on document intelligence (RAG, OCR and vision-language models) for
-        corpus-level QA and large-scale unstructured document understanding in clinical trials.
+        Parexel AI Labs, working on retrieval-augmented generation and reinforcement learning with
+        verifiable rewards for document generation (corpus-level QA, unstructured document
+        understanding and generation) for clinical-trial research.
 
         <br><br>
 
@@ -175,15 +171,15 @@
           <div class="role-rail role-rail-solid"><span class="rail-bullet"></span></div>
           <div class="role-body">
             <div class="role-title">Senior Machine Learning Engineer I</div>
-            <p class="role-lede">Document intelligence at scale — OCR, vision-language models, retrieval.</p>
+            <p class="role-lede">Document understanding and generation grounded in verifiable rewards — OCR, vision-language models and retrieval.</p>
             <ul>
-              <li>Document intelligence pipelines combining OCR, vision-language models (VLMs) and retrieval for large-scale enterprise workflows.</li>
-              <li>Token-efficient OOXML parsing and generation framework, enabling structured document understanding and automated document creation.</li>
-              <li>Two ICLR 2026 workshop papers on
-                <a class="link" href="https://arxiv.org/abs/2603.04238" target="_blank" rel="noopener">retrieval</a>
-                and
-                <a class="link" href="https://arxiv.org/abs/2603.23511" target="_blank" rel="noopener">OCR/VLM benchmarking</a>,
-                and on failure attribution in document understanding systems.</li>
+              <li><strong>Reinforcement learning for document generation.</strong>
+                Recast office document generation with verifiable rewards — executable checks replacing an LLM-as-judge — and used them to build a token-efficient OOXML library that beats the OpenAI and Anthropic document skills at ~half the tokens while scoring 40% higher on reward.</li>
+              <li><strong>Retrieval &amp; document understanding.</strong>
+                Built OCR / VLM / retrieval pipelines for large-scale enterprise document workflows, and showed
+                <a class="link" href="https://arxiv.org/abs/2603.04238" target="_blank" rel="noopener">BM25 rivals multimodal retrievers in visually-rich RAG [ICLR Workshop]</a>,
+                <a class="link" href="https://arxiv.org/abs/2603.23511" target="_blank" rel="noopener">when OCR beats VLMs, and vice versa (DISCO) [ICLR Workshop]</a>,
+                plus corpus-level QA and failure attribution.</li>
             </ul>
           </div>
         </article>
@@ -201,32 +197,26 @@
             <div class="role-title">Senior Machine Learning Engineer — Systems Infrastructure Research</div>
             <p class="role-lede">ML systems research across LLM inference, time-series foundation models and accelerator-aware deployment.</p>
             <ul>
-              <li>Research across LLM inference,
-                <a class="link" href="https://openreview.net/forum?id=W6K2g3XJze" target="_blank" rel="noopener">speculative decoding</a>,
-                <a class="link" href="https://arxiv.org/abs/2407.17880" target="_blank" rel="noopener">time-series foundation models</a>,
-                <a class="link" href="https://arxiv.org/abs/2410.06145" target="_blank" rel="noopener">cloud workload forecasting</a>
+              <li><strong>Time-series foundation models.</strong>
+                Co-developed
+                <a class="link" href="https://arxiv.org/abs/2407.17880" target="_blank" rel="noopener">DAM [ICLR]</a>,
+                a transformer-based forecasting model, with follow-on work on
+                <a class="link" href="https://arxiv.org/abs/2502.12920" target="_blank" rel="noopener">lightweight online adaptation [ICML]</a>,
+                <a class="link" href="https://arxiv.org/abs/2502.12944" target="_blank" rel="noopener">zero-shot evaluation [ICLR Workshop]</a>,
+                <a class="link" href="https://dl.acm.org/doi/10.1145/3578356.3592582" target="_blank" rel="noopener">fine-grained FaaS forecasting [EuroMLSys]</a>,
+                <a class="link" href="https://dl.acm.org/doi/10.1145/3578356.3592584" target="_blank" rel="noopener">data augmentation [EuroMLSys]</a>
+                and a
+                <a class="link" href="https://patents.google.com/patent/US20250390716A1/en" target="_blank" rel="noopener">US patent</a>;
+                deployed production forecasting models that cut infrastructure costs by thousands of pounds per month.</li>
+              <li><strong>Cloud systems &amp; LLM inference.</strong>
+                Published on
+                <a class="link" href="https://arxiv.org/abs/2410.06145" target="_blank" rel="noopener">serverless cold-start analysis [EuroSys]</a>,
+                <a class="link" href="https://arxiv.org/abs/2312.10127" target="_blank" rel="noopener">long-term workload characterization [SoCC]</a>
                 and
-                <a class="link" href="https://ieeexplore.ieee.org/document/10305841/" target="_blank" rel="noopener">accelerator-aware deployment</a>,
-                with publications at
-                <a class="link" href="https://arxiv.org/abs/2502.12920" target="_blank" rel="noopener">ICML</a>,
-                <a class="link" href="https://arxiv.org/abs/2407.17880" target="_blank" rel="noopener">ICLR</a>,
-                <a class="link" href="https://arxiv.org/abs/2410.06145" target="_blank" rel="noopener">EuroSys</a>,
-                <a class="link" href="https://arxiv.org/abs/2312.10127" target="_blank" rel="noopener">SoCC</a>,
-                <a class="link" href="https://dl.acm.org/doi/10.1145/3578356.3592582" target="_blank" rel="noopener">EuroMLSys</a>
-                and
-                <a class="link" href="https://ieeexplore.ieee.org/document/10305841/" target="_blank" rel="noopener">IC2E</a>.</li>
-              <li>Managed a seven-person research team developing runtime prediction, scheduling and neural-network placement methods across heterogeneous GPU and accelerator infrastructure.</li>
-              <li>Deployed production forecasting models for cloud resource prediction across multiple workloads, reducing infrastructure costs by thousands of pounds per month.</li>
-              <li>Co-developed
-                <a class="link" href="https://arxiv.org/abs/2407.17880" target="_blank" rel="noopener">DAM</a>,
-                a transformer-based foundation model for time-series forecasting, and led follow-up research on
-                <a class="link" href="https://arxiv.org/abs/2502.12944" target="_blank" rel="noopener">zero-shot evaluation</a>
-                and
-                <a class="link" href="https://arxiv.org/abs/2502.12920" target="_blank" rel="noopener">lightweight online adaptation</a>.</li>
-              <li>Supervised research interns whose projects led to publications on
-                <a class="link" href="https://ieeexplore.ieee.org/document/10305841/" target="_blank" rel="noopener">RL-based cluster scheduling</a>,
-                <a class="link" href="https://dl.acm.org/doi/10.1145/3578356.3592582" target="_blank" rel="noopener">serverless forecasting</a>,
-                and adaptation of time-series foundation models.</li>
+                <a class="link" href="https://openreview.net/forum?id=W6K2g3XJze" target="_blank" rel="noopener">speculative LLM decoding [ICML Workshop]</a>.</li>
+              <li><strong>Heterogeneous accelerator scheduling.</strong>
+                Led a seven-person team building a system that predicts runtime and power for unseen ML workloads across truly heterogeneous hardware — NVIDIA GPUs, Huawei Ascend NPUs and x86/Arm CPUs — at 6–10% error, feeding a power-aware Kubernetes scheduler that cuts cluster-wide energy and cost; supervised intern work on
+                <a class="link" href="https://ieeexplore.ieee.org/document/10305841/" target="_blank" rel="noopener">RL-based cluster scheduling [IC2E]</a>.</li>
             </ul>
           </div>
         </article>
